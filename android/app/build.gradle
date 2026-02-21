@@ -1,0 +1,13 @@
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+apply plugin: 'com.android.application'
+android {
+    namespace "com.ahmet.ecoyol"
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.ahmet.ecoyol"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
